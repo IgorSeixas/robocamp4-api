@@ -25,4 +25,4 @@ Product Not found
 
     ${resp}=        Get Product         9999   ${token}
 
-    Status Should Be      404       ${resp}
+    Status Should Be      412       ${resp}
